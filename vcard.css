@@ -1,0 +1,28 @@
+body { background-color: #FFFFFF; margin: 0 auto; }
+.vcard {
+    margin: 0 auto;
+    width: 400px;
+}
+.main-title {
+
+    cursor: pointer;
+
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 40px 20px 50px 10px;
+    background-color: #585BAC;
+    font-family: Garamond, serif;
+    line-height: 1em;
+    color: #EDEDFA;
+    font-weight:bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow:0px 0px 0 rgb(220,220,220),1px 1px 0 rgb(217,217,217),2px 2px 0 rgb(215,215,215),3px 3px 0 rgb(213,213,213),4px 4px 0 rgb(210,210,210),5px 5px 0 rgb(208,208,208),6px 6px 0 rgb(205,205,205),7px 7px 0 rgb(203,203,203),8px 8px 0 rgb(201,201,201),9px 9px 0 rgb(198,198,198),10px 10px 0 rgb(196,196,196),11px 11px 0 rgb(194,194,194),12px 12px 0 rgb(191,191,191),13px 13px 0 rgb(189,189,189),14px 14px 0 rgb(186,186,186),15px 15px 0 rgb(184,184,184),16px 16px 0 rgb(182,182,182),17px 17px 0 rgb(179,179,179),18px 18px 0 rgb(177,177,177), 19px 19px 0 rgb(175,175,175),20px 20px 19px rgba(0,0,0,0.6),20px 20px 1px rgba(0,0,0,0.5),0px 0px 19px rgba(0,0,0,.2);
+}
+
+.property-title {
+    background-color: #FEFB80;
+    padding: 5px;
+    color: #2798FC;
+    border-bottom: 1px solid #FDD37E;
+}

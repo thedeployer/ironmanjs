@@ -48,5 +48,9 @@ e('phone-1-line-number',  vcard.phones[0]['line-number']);
 e('phone-2-area-code',  vcard.phones[1]['area-code']);
 e('phone-2-line-number',  vcard.phones[1]['line-number']);
 
+document.getElementById('main-title').addEventListener('click', function () {
+    alert('Hello Vcard!');
+});
+
 
 

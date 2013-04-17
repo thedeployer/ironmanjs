@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Vcard</title>
+    <link rel="stylesheet" href="vcard.css" />
 </head>
 <body>
     
-    <div id="vcard">
-        <div id="name">
-            <h3>Name: </h3>
+    <div id="vcard" class="vcard">
+        <h2 class="main-title" id="main-title">Vcard Yo!</h2>
+        <div id="name" class="name">
+            <h3 class="property-title">Name: </h3>
             <span id="first-name"></span> <span id="last-name"></span>
         </div>
         <div id="emails">
-            <h3>Emails: </h3>
+            <h3 class="property-title">Emails: </h3>
             <ul>
                 <li id="email-1"></li>
                 <li id="email-2"></li>
@@ -20,11 +22,11 @@
             </ul>
         </div>
         <div id="address">
-            <h3>Address: </h3>
+            <h3 class="property-title">Address: </h3>
             <span id="street"></span>, <span id="city"></span>, <span id="country"></span> <span id="postal-code"></span>
         </div>
         <div id="phones">
-            <h3>Phones: </h3>
+            <h3 class="property-title">Phones: </h3>
             <ul>
                 <li id="phone-1">
                     (<span id="phone-1-area-code"></span>) <span id="phone-1-line-number"></span>
@@ -36,6 +38,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="vcard.js"></script>
 </body>
 </html>
